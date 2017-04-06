@@ -1,0 +1,23 @@
+.room {
+  padding:15px;
+  overflow: auto;
+}
+.room .side ul {
+  list-style-type: none;
+  padding: 0;
+}
+.room .left_side {
+  float: left;
+}
+
+.room .right_side {
+  float: right;
+}
+
+.room .center {
+  position: absolute;
+  left: 50%;
+  margin-left: -40px;
+  width: 80px;
+  text-align: center;
+}
